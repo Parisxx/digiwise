@@ -7,6 +7,13 @@
     <title>Contact</title>
 </head>
 <body>
-    
+<?php
+ include 'header.php';
+?>
+ <b></b>
+
+ <?php
+ include 'footer.php';
+ ?>
 </body>
 </html>
