@@ -11,7 +11,7 @@
 <?php
  include 'header.php';
 ?>
-    <h1> News </h1>
+    <h1> Nieuws </h1>
  <div>
     <h2>Brightlands </h2>
     <h3>8 juni 2022 </h3>
