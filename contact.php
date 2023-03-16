@@ -13,6 +13,7 @@
 <?php
  include 'header.php';
 ?>
+
  <H1>Contact</H1>
  <h4> 088 001 5000</h4>
  <h4> 06-47087078</h4>

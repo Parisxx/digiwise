@@ -12,13 +12,9 @@
  include 'header.php';
 ?>
 
-<br>
+
  <?php
  include 'footer.php';
- ?>
-
-
-
-    
+ ?>  
 </body>
 </html>
