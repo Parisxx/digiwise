@@ -14,7 +14,10 @@
  <?php
  include 'header.php';
 ?>
-
+<h1>Digiwise bouwt de toekomst </h1>
+<tekst>Digitalisering ICT heeft een steeds grotere rol in de samenleving.
+    Daar waar de ICTer vroeger systeembeheer tot focus gebied had, 
+    zie je dat de behoefte aan het veranderen is. Er is een mismatch ontstaan in vraag en aanbod.</tekst>
 
  <?php
  include 'footer.php';
