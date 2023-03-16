@@ -96,6 +96,11 @@ a{
  .nav-menu.active{
     left: 0;
   }
+
+  .contact-btn{
+    background: #2789CA;
+    border: none;
+  }
 }
     </style>
 
@@ -129,7 +134,9 @@ a{
             <span class="bar"></span>
             <span class="bar"></span>
          </div>
+        <button class="contact-btn">Samen Werken</button>
       </nav>
+  
    </div>
 </header>
 <script>
