@@ -8,6 +8,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+<html> 
+ <body>
+ <h1></h1>
+ <?php
+//your PHP code goes here
+?>
+ <b></b>
+ <?php
+
+ ?>
+ 
+ </body>
+ </html>
 </body>
 </html>
