@@ -1,6 +1,8 @@
 <?php
- include '<styles_header class="css"></styles_header>.css';
+
 ?>
+<html> <link rel="stylesheet" href="css/styles_header.css"></html>
+
 	<header class="header">
 		<h1 class="logo"><a href="#">DigiWise</a></h1>
       <ul class="main-nav">
