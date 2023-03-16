@@ -16,6 +16,24 @@
  <h4> 06-47087078</h4>
  <h4>info@digiwise.academy</h4>
 
+ <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+<br>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<br>
+    <label for="subject">Subject</label>
+    <br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+<br>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
  <?php
  include 'footer.php';
  ?>
