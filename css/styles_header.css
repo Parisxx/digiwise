@@ -31,7 +31,7 @@ a {
 }
 
 .main-nav {
-	margin-top: 5px;
+	margin-top: 0px;
 
 }
 .logo a,
@@ -75,7 +75,7 @@ a {
 		align-items: center;
     }
         .header{
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
