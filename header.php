@@ -101,13 +101,22 @@ a{
          <img src="images/digiwise2.png" alt="">
          <ul class="nav-menu">
             <li class="nav-item">
-               <a href="#" class="nav-link">Home</a>
+               <a href="story.php" class="nav-link">Ons Verhaal</a>
             </li>
             <li class="nav-item">
-               <a href="#" class="nav-link">About</a>
+               <a href="challenges.php" class="nav-link">Challenges</a>
             </li>
             <li class="nav-item">
-               <a href="#" class="nav-link">Contact</a>
+               <a href="showcase.php" class="nav-link">Showcase</a>
+            </li>
+            <li class="nav-item">
+               <a href="gallery.php" class="nav-link">Gallerij</a>
+            </li>
+            <li class="nav-item">
+               <a href="contact.php" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+               <a href="news.php" class="nav-link">Nieuws</a>
             </li>
          </ul>
          <div class="hamburger">
