@@ -130,7 +130,7 @@ a{
             <span class="bar"></span>
             <span class="bar"></span>
          </div>
-        <button class="contact-btn" style="background: #2789CA; border: none;">Samen Werken</button>
+        <button class="contact-btn" style="background: #2789CA; border: none; color: #FFF; padding: 1em;">Samen Werken</button>
       </nav>
   
    </div>
