@@ -10,7 +10,6 @@
 <body>
 <html> 
  <body>
- <h1></h1>
  <?php
  include 'header.php';
 ?>
