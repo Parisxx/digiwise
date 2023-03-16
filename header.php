@@ -1,17 +1,77 @@
-<?php
+<html lang="en">
 
-?>
-<html> <link rel="stylesheet" href="css/styles_header.css"></html>
+ <head>
 
-	<header class="header">
-		<h1 class="logo"><a href="index.php">DigiWise</a></h1>
-      <ul class="main-nav">
-          <li><a href="story.php">Ons verhaal</a></li>
-          <li><a href="challenges.php">Challenges</a></li>
-          <li><a href="showcase.php">Showcase</a></li>
-          <li><a href="gallery.php">Gallerij</a></li>
-          <li><a href="contact.php">Contact</a></li>
-          <li><a href="news.php">Nieuws</a></li>
-      </ul>
+   <meta charset="UTF-8" />
 
-	</header> 
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   <link rel="stylesheet" href="style.css" />
+
+   <title>Document</title>
+
+ </head>
+
+ <body>
+
+   <nav class="navbar">
+
+     <!-- LOGO -->
+
+     <div class="logo">MUO</div>
+
+     <!-- NAVIGATION MENU -->
+
+     <ul class="nav-links">
+
+       <!-- USING CHECKBOX HACK -->
+
+       <input type="checkbox" id="checkbox_toggle" />
+
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+       <!-- NAVIGATION MENUS -->
+
+       <div class="menu">
+
+         <li><a href="/">Home</a></li>
+
+         <li><a href="/">About</a></li>
+
+         <li class="services">
+
+           <a href="/">Services</a>
+
+           <!-- DROPDOWN MENU -->
+
+           <ul class="dropdown">
+
+             <li><a href="/">Dropdown 1 </a></li>
+
+             <li><a href="/">Dropdown 2</a></li>
+
+             <li><a href="/">Dropdown 2</a></li>
+
+             <li><a href="/">Dropdown 3</a></li>
+
+             <li><a href="/">Dropdown 4</a></li>
+
+           </ul>
+
+         </li>
+
+         <li><a href="/">Pricing</a></li>
+
+         <li><a href="/">Contact</a></li>
+
+       </div>
+
+     </ul>
+
+   </nav>
+
+ </body>
+
+</html>
