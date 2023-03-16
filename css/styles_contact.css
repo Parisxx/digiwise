@@ -1,7 +1,15 @@
 
-body{
-    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
-    background: rgb(39,137,202);
-    background: linear-gradient(20deg, rgba(39,137,202,1) 0%, rgba(135,196,143,1) 100%);
+*{
+    margin: 0;
+    padding: 0;
+}
 
+html{
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(20deg, rgba(39,137,202,1) 0%, rgba(135,196,143,1) 100%);
+    font-family: 'Nunito Sans', sans-serif;
 }
