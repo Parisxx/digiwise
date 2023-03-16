@@ -19,8 +19,5 @@
 <img src="foto/digiwise_4.png">
 </div>
 
- <?php
- include 'footer.php';
- ?>
 </body>
 </html>
