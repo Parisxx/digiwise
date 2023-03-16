@@ -1,77 +1,130 @@
+<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        header{
+  background-color: black;
+}
+li{
+  list-style: none;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.container{
+  max-width: 1224px;
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar{
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-branding{
+  font-size: 2rem;
+}
+.nav-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+.nav-link{
+  transition: 0.3s ease-out;
+}
+.nav-link:hover{
+  color: dodgerblue;
+}
+.hamburger{
+  display: none;
+  cursor: pointer;
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-color: white;
+}
+@media(max-width:1024px){
+  .hamburger{
+    display: block;
+  }
+ .hamburger.active .bar:nth-child(2){
+    opacity: 0;
+  }
+ .hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+  }
+ .hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+  }
+ .nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #262626;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+ .nav-item{
+    margin: 16px 0;
+  }
+ .nav-menu.active{
+    left: 0;
+  }
+}
+    </style>
 
- <head>
-
-   <meta charset="UTF-8" />
-
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-   <link rel="stylesheet" href="style.css" />
-
-   <title>Document</title>
-
- </head>
-
- <body>
-
-   <nav class="navbar">
-
-     <!-- LOGO -->
-
-     <div class="logo">MUO</div>
-
-     <!-- NAVIGATION MENU -->
-
-     <ul class="nav-links">
-
-       <!-- USING CHECKBOX HACK -->
-
-       <input type="checkbox" id="checkbox_toggle" />
-
-       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
-       <!-- NAVIGATION MENUS -->
-
-       <div class="menu">
-
-         <li><a href="/">Home</a></li>
-
-         <li><a href="/">About</a></li>
-
-         <li class="services">
-
-           <a href="/">Services</a>
-
-           <!-- DROPDOWN MENU -->
-
-           <ul class="dropdown">
-
-             <li><a href="/">Dropdown 1 </a></li>
-
-             <li><a href="/">Dropdown 2</a></li>
-
-             <li><a href="/">Dropdown 2</a></li>
-
-             <li><a href="/">Dropdown 3</a></li>
-
-             <li><a href="/">Dropdown 4</a></li>
-
-           </ul>
-
-         </li>
-
-         <li><a href="/">Pricing</a></li>
-
-         <li><a href="/">Contact</a></li>
-
-       </div>
-
-     </ul>
-
-   </nav>
-
- </body>
-
+    
+<header>
+   <div class="container"> 
+      <nav class="navbar">
+         <a href="#" class="nav-branding">DEV.</a>
+         <ul class="nav-menu">
+            <li class="nav-item">
+               <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+               <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+               <a href="#" class="nav-link">Contact</a>
+            </li>
+         </ul>
+         <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+      </nav>
+   </div>
+</header>
+<script>
+        const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+})
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+  hamburger.classList.remove("active");
+  navMenu.classList.remove("active");
+}))
+    </script>
+</body>
 </html>
