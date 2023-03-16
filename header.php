@@ -97,11 +97,6 @@ a{
     left: 0;
   }
 
-  .contact-btn{
-    background: #2789CA;
-    border: none;
-    width: 250px;
-  }
 }
     </style>
 
@@ -135,7 +130,7 @@ a{
             <span class="bar"></span>
             <span class="bar"></span>
          </div>
-        <button class="contact-btn">Samen Werken</button>
+        <button class="contact-btn" style="background: #2789CA; border: none;">Samen Werken</button>
       </nav>
   
    </div>
