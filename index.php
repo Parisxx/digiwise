@@ -12,16 +12,12 @@
  <body>
  <h1></h1>
  <?php
+ include 'header.php';
 ?>
  <b></b>
- <ul>
-  <li><a href="home.php">Home</a></li>
-  <li><a href="news.php">News</a></li>
-  <li><a href="contact.php">Contact</a></li>
-  <li><a href="foto.php">Fotogallery</a></li>
-</ul>
- <?php
 
+ <?php
+ include 'footer.php';
  ?>
  
  </body>
