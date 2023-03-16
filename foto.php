@@ -11,7 +11,13 @@
 <?php
  include 'header.php';
 ?>
- <b></b>
+    <h1> Foto Gallery </h1>
+<div>
+<img src="foto/digiwise_1.png">
+<img src="foto/digiwise_2.png">
+<img src="foto/digiwise_3.png">
+<img src="foto/digiwise_4.png">
+</div>
 
  <?php
  include 'footer.php';
