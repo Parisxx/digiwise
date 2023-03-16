@@ -100,6 +100,7 @@ a{
   .contact-btn{
     background: #2789CA;
     border: none;
+    width: 250px;
   }
 }
     </style>
