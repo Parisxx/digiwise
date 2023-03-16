@@ -1,13 +1,4 @@
-<?php
-   session_start();
-   require_once("db_connection.php");
-   $pdo = connect();
- 
 
-  $stmt = $pdo->query("SELECT * FROM contact");
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -43,28 +34,7 @@
   </form>
 </div>
 
-<div>
-<?php
- while ($data = $stmt->fetch())
-      {
-        echo "<div class='container'>";
-        echo  "<form action='action_page.php'>";
-        echo  "<label for='fname'>First Name</label>";
-        echo  "<input type='text' id='fname' name='firstname' placeholder='Your name..'>";
-        echo  "<br>";
-        echo  "<label for='lname'>Last Name</label>";
-        echo  "<input type='text' id='lname' name='lastname' placeholder='Your last name..'>";
-        echo  "<br>";
-        echo  "<label for='subject'>Subject</label>";
-        echo  "<br>";
-        echo  "<textarea id='subject' name='subject' placeholder='Write something..' style='height:200px'></textarea>";
-        echo  "<br>";
-        echo  "<input type='submit' value='Submit'>";
-        echo  "</form>";
-        echo  "</div>";
-      }
-?>
-</div>
+
 <?php
  include 'footer.php';
  ?>
