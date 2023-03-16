@@ -29,6 +29,10 @@ a{
   justify-content: space-between;
   align-items: center;
 }
+
+.navbar img{
+    width: 250px;
+}
 .nav-branding{
   font-size: 2rem;
 }
@@ -94,7 +98,7 @@ a{
 <header>
    <div class="container"> 
       <nav class="navbar">
-         <a href="#" class="nav-branding">DEV.</a>
+         <img src="images/digiwise2.png" alt="">
          <ul class="nav-menu">
             <li class="nav-item">
                <a href="#" class="nav-link">Home</a>
