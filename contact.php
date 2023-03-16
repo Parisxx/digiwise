@@ -13,6 +13,8 @@
 ?>
  <H1>Contact</H1>
  <h3> 088 001 5000</h3>
+ <h3> 06-47087078</h3>
+ <h3>info@digiwise.academy</h3>
 
  <?php
  include 'footer.php';
