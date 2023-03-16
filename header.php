@@ -1,27 +1,13 @@
 <?php
-
+ include '<styles_header class="css"></styles_header>.css';
 ?>
+	<header class="header">
+		<h1 class="logo"><a href="#">DigiWise</a></h1>
+      <ul class="main-nav">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="news.php">News</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="foto.php">Foto Gallery</a></li>
+      </ul>
 
-
- <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="news.php">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="contact.php">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="contact.php">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
- 
+	</header> 
