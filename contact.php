@@ -12,9 +12,9 @@
  include 'header.php';
 ?>
  <H1>Contact</H1>
- <h3> 088 001 5000</h3>
- <h3> 06-47087078</h3>
- <h3>info@digiwise.academy</h3>
+ <h4> 088 001 5000</h4>
+ <h4> 06-47087078</h4>
+ <h4>info@digiwise.academy</h4>
 
  <?php
  include 'footer.php';
