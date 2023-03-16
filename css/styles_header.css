@@ -17,10 +17,7 @@ ul {
 
 h2,
 h3,
-a {
-	color: white;
-}
-
+/* //Pic change// */
 a {
 	text-decoration: none;
 }
@@ -43,12 +40,12 @@ a {
 }
 
 .main-nav a {
-	color: #34495e;
+	color: white;
 	font-size: .99em;
 }
 
 .main-nav a:hover {
-	color: #718daa;
+	color: #bcc5ce;
 }
 
 .header {
