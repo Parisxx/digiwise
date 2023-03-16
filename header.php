@@ -96,8 +96,8 @@ a{
     
 <header>
    <div class="container"> 
-      <nav class="navbar">
-         <img src="images/digiwise2.png" alt="">
+      <nav class="navbar">  
+        <a href="index.php"> <img src="images/digiwise2.png" alt=""> </a>
          <ul class="nav-menu">
             <li class="nav-item">
                <a href="story.php" class="nav-link">Ons Verhaal</a>
