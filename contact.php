@@ -12,7 +12,7 @@
  include 'header.php';
 ?>
  <H1>Contact</H1>
- <h2> 088 001 5000</h2>
+ <h3> 088 001 5000</h3>
 
  <?php
  include 'footer.php';
