@@ -10,7 +10,7 @@
 <?php
  include 'header.php';
 ?>
- <b></b>
+ 
 
  <?php
  include 'footer.php';
