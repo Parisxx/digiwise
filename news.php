@@ -11,8 +11,20 @@
  include 'header.php';
 ?>
     <h1> News </h1>
- 
-
+ <div>
+    <h2>Brightlands </h2>
+    <h3>8 juni 2022 </h3>
+    <tekst>Het VISTA college heeft 
+        samen met Gilde Opleidingen het 
+        DigiWise event georganiseerd dat
+        woensdag 8 juni plaatsvindt op 
+        de Brightlands Smart Services Campus 
+        in Heerlen. De ICT-opleidingen van Gilde 
+        en VISTA werken samen om de digitale 
+        vaardigheid en weerbaarheid van de 
+        toekomstige werknemers in Limburg te verbeteren.</tekst>
+</div>
+<br>
  <?php
  include 'footer.php';
  ?>
