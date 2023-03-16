@@ -9,7 +9,7 @@
 <body>
     <style>
         header{
-  background-color: black;
+  background-color: transparent;
 }
 li{
   list-style: none;
