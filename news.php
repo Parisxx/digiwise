@@ -11,7 +11,7 @@
  include 'header.php';
 ?>
     <h1> News </h1>
- <b></b>
+ 
 
  <?php
  include 'footer.php';
