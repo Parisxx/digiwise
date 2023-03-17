@@ -13,10 +13,10 @@
 ?>
     <h1> Foto Gallery </h1>
 <div>
-<img src="foto/digiwise_1.png">
-<img src="foto/digiwise_2.png">
-<img src="foto/digiwise_3.png">
-<img src="foto/digiwise_4.png">
+<img src="images/digiwise_1.png">
+<img src="images/digiwise_2.png">
+<img src="images/digiwise_3.png">
+<img src="images/digiwise_4.png">
 </div>
 
 </body>

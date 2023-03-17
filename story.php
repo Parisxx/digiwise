@@ -11,7 +11,7 @@
 <?php
  include 'header.php';
 ?>
-<img src="foto/digiwise_1.png">
+<img class="picture" src="images/digiwise_2.png">
 
 </body>
 </html>
