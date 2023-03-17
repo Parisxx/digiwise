@@ -13,3 +13,17 @@ body{
     background: linear-gradient(20deg, rgba(39,137,202,1) 0%, rgba(135,196,143,1) 100%);
     font-family: 'Nunito Sans', sans-serif;
 }
+
+
+
+.image{
+    height: 40vh;
+    width: 20%;
+    padding: 5px;
+}
+
+.div_images{
+margin-top: 10vh;
+margin-left: 11%;
+float: right;
+}

@@ -11,12 +11,16 @@
 <?php
  include 'header.php';
 ?>
-    <h1> Foto Gallery </h1>
-<div>
-<img src="images/digiwise_1.png">
-<img src="images/digiwise_2.png">
-<img src="images/digiwise_3.png">
-<img src="images/digiwise_4.png">
+
+<div class="div_images">
+<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_2.png">
 </div>
 
 </body>
