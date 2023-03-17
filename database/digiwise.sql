@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 16 mrt 2023 om 10:58
+-- Gegenereerd op: 17 mrt 2023 om 14:00
 -- Serverversie: 10.4.27-MariaDB
 -- PHP-versie: 8.1.12
 
@@ -32,6 +32,25 @@ CREATE TABLE `contact` (
   `last_name` varchar(255) NOT NULL,
   `subject` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `news`
+--
+
+CREATE TABLE `news` (
+  `title` varchar(255) NOT NULL,
+  `date` date NOT NULL,
+  `text` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `news`
+--
+
+INSERT INTO `news` (`title`, `date`, `text`) VALUES
+('Digiwise', '2022-06-08', 'Het VISTA college heeft samen met Gilde Opleidingen het DigiWise event georganiseerd dat woensdag 8 juni plaatsvindt op de Brightlands Smart Services Campus in Heerlen. De ICT-opleidingen van Gilde en VISTA werken samen om de digitale vaardigheid en weerb');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

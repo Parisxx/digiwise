@@ -1,3 +1,14 @@
+<?php
+   session_start();
+   require_once("database/db_connection.php");
+   $pdo = connect();
+ 
+
+  $stmt = $pdo->query("SELECT * FROM news");
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,39 +23,17 @@
  include 'header.php';
 ?>
 
- <div class="news">
-    <h2>Brightlands </h2>
-    <h3>8 juni 2022 </h3>
-    <p>
-        Het VISTA college heeft 
-        samen met Gilde Opleidingen het 
-        DigiWise event georganiseerd dat
-        woensdag 8 juni plaatsvindt op 
-        de Brightlands Smart Services Campus 
-        in Heerlen. De ICT-opleidingen van Gilde 
-        en VISTA werken samen om de digitale 
-        vaardigheid en weerbaarheid van de 
-        toekomstige werknemers in Limburg te verbeteren.
-    </p>
-</div>
 
-<div class="news">
-    <h2>Brightlands </h2>
-    <h3>8 juni 2022 </h3>
-    <p>
-        Het VISTA college heeft 
-        samen met Gilde Opleidingen het 
-        DigiWise event georganiseerd dat
-        woensdag 8 juni plaatsvindt op 
-        de Brightlands Smart Services Campus 
-        in Heerlen. De ICT-opleidingen van Gilde 
-        en VISTA werken samen om de digitale 
-        vaardigheid en weerbaarheid van de 
-        toekomstige werknemers in Limburg te verbeteren.
-    </p>
-</div>
-
-<!-- maak database connectie en fetch de nieuws berichten uit database -->
+<?php
+     while ($data = $stmt->fetch())
+      {
+echo "<div class='news'>";
+echo "<h2>". $data['title'] ."</h2>";
+echo "<h3>". $data['date'] ." </h3>";
+echo "<p>". $data['text'] ."</p>";
+echo "</div>";
+}
+?>
 
 
 </body>
