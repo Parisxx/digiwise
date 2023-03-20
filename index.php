@@ -16,7 +16,13 @@
  <?php
  include 'header.php';
 ?>
-
+<h1 class="title_1">Wij zijn klaar voor de</h1>
+<h1 class="title_2">toekomst! </h1>
+<p class="intro">
+    Digitalisering ICT heeft een steeds grotere rol in de samenleving. 
+    Daar waar de ICTer vroeger systeembeheer tot focus gebied had, 
+    zie je dat de behoefte aan het veranderen is.
+</p>
  </body>
  </html>
 </body>
