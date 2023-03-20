@@ -13,3 +13,9 @@ body{
     background: linear-gradient(20deg, rgba(39,137,202,1) 0%, rgba(135,196,143,1) 100%);
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.contact{
+    color: white;
+    text-align: center;
+}
+
