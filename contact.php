@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,11 +14,17 @@
 ?>
 
 <form class="contact" action="contact.php" method="get">
+  <label>Volledige naam:</label><br>
+  <input required type="text" name="name"><br>
+
   <label>Naam organisatie:</label><br>
-  <input type="text" name="name"><br>
+  <input type="text" name="organisation"><br>
+
   <label>Onderwerp:</label><br>
-  <textarea name="subject"></textarea><br>
-  <input type="submit" value="Verstuur">
+  <textarea required name="subject"></textarea><br>
+
+  <input name="submit" type="submit" value="Verstuur">
+  
 </form>
 
 

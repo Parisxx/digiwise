@@ -25,8 +25,8 @@
 
 
 <?php
-     while ($data = $stmt->fetch())
-      {
+while ($data = $stmt->fetch())
+{
 echo "<div class='news'>";
 echo "<h2>". $data['title'] ."</h2>";
 echo "<h3>". $data['date'] ." </h3>";
