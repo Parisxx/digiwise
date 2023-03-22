@@ -17,13 +17,13 @@ body{
 color: white;
 text-align: center;
 margin-top: 10vh;
-font-weight: bolder;
+/* font-weight: bolder; */
 }
 
 .title_2{
 text-align: center;
 color: #2789CA;
-font-weight: bold;
+/* font-weight: bolder; */
 }
 
 .intro{
