@@ -13,6 +13,7 @@
     <style>
       body{
         font-family: 'Nunito Sans', sans-serif;
+        font-weight: bold;
       }
         header{
   background-color: transparent;
