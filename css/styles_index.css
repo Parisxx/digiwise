@@ -19,6 +19,10 @@ body{
     opacity: 40%;
     position: absolute;
     z-index: -1;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
 }
 .title_1{
 color: white;
