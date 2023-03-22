@@ -1,0 +1,17 @@
+.footer{
+    /* position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  
+    background: #073959;
+    color: white;
+    margin-top: 5vh; */
+    position: absolute;
+    width: 1911px;
+    height: 375px;
+    left: 0px;
+    top: 2824px;
+    
+    background: #073959;
+
+}
