@@ -1,17 +1,14 @@
 .footer{
-    /* position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
-    height: 60px;  
+    height: 40vh;
+    top: 100%;
+    bottom: 0;
     background: #073959;
     color: white;
-    margin-top: 5vh; */
-    position: absolute;
-    width: 1911px;
-    height: 375px;
-    left: 0px;
-    top: 2824px;
-    
-    background: #073959;
 
+}
+
+.line {
+    border-left: 2px solid white;
 }
