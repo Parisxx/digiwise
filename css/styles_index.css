@@ -14,11 +14,11 @@ body{
 
 }
 .blocks{
-    display: absolute;
+    display: relative;
     margin-left: 1;
     padding-top: -900px;
     opacity: 40%;
-    position: relative;
+    position: absolute;
 }
 .title_1{
 color: white;
