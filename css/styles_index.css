@@ -10,15 +10,14 @@ html{
 }
 
 body{
-    background: linear-gradient(20deg, rgba(39,137,202,1) 0%, rgba(135,196,143,1) 100%);
-    
+    background: linear-gradient(180deg, rgba(131, 202, 142, 0.65) 0%, #2789CA 100%);
+
 }
 .blocks{
-    height: 40vh;
-    width: 20%;
-    padding: 5px;
-    
-
+    margin-left: 1;
+    margin-top: -5rem;
+    opacity: 40%;
+    position: absolute;
 }
 .title_1{
 color: white;
