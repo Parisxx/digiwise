@@ -10,31 +10,37 @@
 <body>
 
 <div class="footer"> 
+
 <br>
-<p class="line">Info</p>
+<p class="line_footer">Info</p>
 <br>
 <p> Contact opnemen</p>
 <p> Documenten</p>
 <p> Kennis maken</p>
 <p> Partners</p>
+
 <br>
-<p class="line">Klantenservice</p>
+<p class="line_footer">Klantenservice</p>
 <br>
 <p> Contact opnemen</p>
 <p> Documenten</p>
 <p> Kennis maken</p>
 
 <br>
-<p class="line">Meer info</p>
+<p class="line_footer">Meer info</p>
 <br>
 <p> 088 001 5000</p>
 <p> info@digiwise.academy</p>
 <p> Maastricht, Limburg</p>
 <p> 2020</p>
 
-
+<br>
+<br>
+<a href="https://www.facebook.com/VISTAcollege.ict/"> <img src="images/facebook.png"> </a>
+<a href="https://nl.linkedin.com/company/digiwisebouwtdetoekomst"> <img src="images/linkedin.png"> </a>
 
 </div>
+
 
 </body>
 </html>
