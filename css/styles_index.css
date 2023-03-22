@@ -14,7 +14,7 @@ body{
 
 }
 .blocks{
-    display: block;
+    display: absolute;
     margin-left: 1;
     padding-top: -900px;
     opacity: 40%;
