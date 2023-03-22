@@ -1,3 +1,14 @@
+<?php
+  session_start();
+  require_once("database/db_connection.php");
+  $pdo = connect();
+ 
+
+  $stmt = $pdo->query("INSERT INTO contact (name, organisation, subject)
+  VALUES ('name', 'organisation', 'subject')");
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
