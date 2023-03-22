@@ -16,11 +16,9 @@ body{
 .blocks{
     display: block;
     margin-left: 1;
-    margin-top: 0%;
+    padding-top: -10px;
     opacity: 40%;
     position: absolute;
-    z-index: 0;
-
 }
 .title_1{
 color: white;
