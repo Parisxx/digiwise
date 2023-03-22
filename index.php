@@ -16,7 +16,7 @@
  <?php
  include 'header.php';
 ?>
-<img class="blocks" src="block.png">
+<img class="blocks" src="images/block.png">
 <h1 class="title_1">Wij zijn klaar voor de</h1>
 <h1 class="title_2">toekomst! </h1>
 <p class="intro">
