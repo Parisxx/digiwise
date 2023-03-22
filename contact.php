@@ -2,11 +2,6 @@
   session_start();
   require_once("database/db_connection.php");
   $pdo = connect();
- 
-
-  $stmt = $pdo->query("INSERT INTO contact (name, organisation, subject)
-  VALUES ('name', 'organisation', 'subject')");
-
 
 ?>
 
@@ -24,7 +19,7 @@
  include 'header.php';
 ?>
 
-<form class="contact" action="contact.php" method="get">
+<form class="contact" action="contact.php" method="post" enctype="multipart/form-data">
   <label>Volledige naam:</label><br>
   <input required type="text" name="name"><br>
 
@@ -38,6 +33,18 @@
   
 </form>
 
+<?php
+if(isset($_POST['submit']))
+    {
+        $name = $_POST['name'];
+        $organisation = $_POST['organisation'];
+        $subject = $_POST['subject'];
+    
+        $sql = "INSERT INTO contact (name, organisation, subject) VALUES ('$name', '$organisation', '$subject')";
+        $result = $pdo->query($sql);
+    }
+
+?>
 
 </body>
 </html>
