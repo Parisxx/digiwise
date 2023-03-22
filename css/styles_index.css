@@ -15,7 +15,7 @@ body{
 }
 .blocks{
     display: block;
-    margin-left: auto;
+    margin-left: 1;
     width: 50%;
 
 }
