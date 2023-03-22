@@ -13,8 +13,8 @@
 ?>
 
 <div class="div_images">
-<img class="image" src="images/digiwise_2.png">
-<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_3.png">
+<img class="image" src="images/digiwise_4.png">
 <img class="image" src="images/digiwise_2.png">
 <img class="image" src="images/digiwise_2.png">
 <img class="image" src="images/digiwise_2.png">
