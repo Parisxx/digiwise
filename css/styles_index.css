@@ -16,6 +16,7 @@ body{
 .blocks{
     display: block;
     margin-left: 1;
+    margin-top: 0%;
     opacity: 50%;
     position: absolute;
 
