@@ -14,10 +14,9 @@ body{
     
 }
 .blocks{
-    height: 40vh;
-    width: 20%;
-    padding: 5px;
-    
+    display: block;
+    margin-left: auto;
+    width: 50%;
 
 }
 .title_1{
