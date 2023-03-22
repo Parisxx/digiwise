@@ -11,19 +11,26 @@ html{
 
 body{
     background: linear-gradient(20deg, rgba(39,137,202,1) 0%, rgba(135,196,143,1) 100%);
+    
 }
+.blocks{
+    height: 40vh;
+    width: 20%;
+    padding: 5px;
+    
 
+}
 .title_1{
 color: white;
 text-align: center;
 margin-top: 10vh;
-/* font-weight: bolder; */
+font-weight: 1000;
 }
 
 .title_2{
 text-align: center;
 color: #2789CA;
-/* font-weight: bolder; */
+font-weight: bolder;
 }
 
 .intro{
