@@ -35,6 +35,7 @@ a{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 25px;
 }
 
 .navbar img{
