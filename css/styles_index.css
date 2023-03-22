@@ -15,7 +15,7 @@ body{
 }
 .blocks{
     margin-left: 1;
-    padding-top: -900px;
+    margin-top: -2rem;
     opacity: 40%;
     position: absolute;
 }
