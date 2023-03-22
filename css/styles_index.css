@@ -19,6 +19,7 @@ body{
     margin-top: 0%;
     opacity: 50%;
     position: absolute;
+    z-index: 0;
 
 }
 .title_1{
