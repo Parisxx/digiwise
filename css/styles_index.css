@@ -11,8 +11,15 @@ html{
 
 body{
     background: linear-gradient(20deg, rgba(39,137,202,1) 0%, rgba(135,196,143,1) 100%);
+    
 }
+.blocks{
+    height: 40vh;
+    width: 20%;
+    padding: 5px;
+    
 
+}
 .title_1{
 color: white;
 text-align: center;
