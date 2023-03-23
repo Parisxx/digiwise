@@ -21,13 +21,13 @@
 
 <form class="contact" action="contact.php" method="post" enctype="multipart/form-data">
   <label>Volledige naam:</label><br>
-  <input required type="text" name="name"><br>
+  <input class="border" required type="text" name="name"><br>
 
   <label>Naam organisatie:</label><br>
-  <input type="text" name="organisation"><br>
+  <input class="border" type="text" name="organisation"><br>
 
   <label>Onderwerp:</label><br>
-  <textarea required name="subject"></textarea><br>
+  <textarea class="border" required name="subject"></textarea><br>
 
   <input name="submit" type="submit" value="Verstuur">
   
