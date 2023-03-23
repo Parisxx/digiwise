@@ -18,6 +18,7 @@
 <?php
  include 'header.php';
 ?>
+<img class="blocks" src="images/block.png">
 
 <form class="contact" action="contact.php" method="post" enctype="multipart/form-data">
   <label>Volledige naam:</label><br>
