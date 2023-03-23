@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 html{
@@ -11,6 +12,7 @@ html{
 
 body{
     background: linear-gradient(180deg, rgba(131, 202, 142, 0.65) 0%, #2789CA 100%);
+    
 
 }
 .blocks{
@@ -28,16 +30,69 @@ body{
 color: white;
 text-align: center;
 margin-top: 10vh;
-font-weight: 1000;
+font-size: 45px;
+font-weight: 800;
+
 }
 
-.title_2{
-text-align: center;
-color: #2789CA;
-font-weight: bolder;
+.title_1 span{
+    color: #2789CA;
 }
 
 .intro{
     color: white;
     text-align: center;
+    font-weight: 300;
+}
+
+.container_1{
+    background: #F3F9FE;
+    height: 700px;
+    width: 100%;
+    margin-top: 400px;
+}
+
+.card_container{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_1{
+    background-color: #FFF;
+    width: 450px;
+    height: 100%;
+    margin: 50px;
+    margin-top: -300px;
+    box-shadow: 6px 12px 27px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.img_container{
+    width: 100%;
+}
+
+.img_container img{
+    width: 100%;
+}
+
+.card_2{
+    background-color: #FFF;
+    width: 450px;
+    height: 100%;
+    margin: 50px;
+    margin-top: -300px;
+    box-shadow: 6px 12px 27px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.info_bar h1{
+    font-size: 16px;
+}
+
+.info_bar p{
+    font-weight: 300;
 }
