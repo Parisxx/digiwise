@@ -22,3 +22,9 @@ body{
    border:none;
 
 }
+.button{
+border: none;
+color: black;
+background-color: white;
+padding: 0.4%;
+}
