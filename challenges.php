@@ -11,6 +11,7 @@
 <?php
  include 'header.php';
 ?>
+<img class="blocks" src="images/block.png">
 <div class="columns">
 <h3> HTML challenges </h3>
 <div class="card" onclick="this.classList.toggle('active')">
