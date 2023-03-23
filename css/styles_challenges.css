@@ -31,7 +31,7 @@ body{
     cursor: pointer;
     transition: height 0.3s ease-out;
     background-color: white;
-
+    box-shadow: 6px 12px 27px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -40,6 +40,7 @@ body{
     overflow: hidden;
     transition: height 0.3s ease-out;
     background-color: white;
+    font-weight: lighter;
 }
 .card.active .card_content {
     height: auto;
@@ -48,8 +49,10 @@ body{
 
 .columns{
     margin-top: 5vh;
-    color: rgb(36, 35, 35);
+    margin-left: 25%;
+    color: rgb(0, 0, 0);
     display: block;
+    text-align: center;
 
 }
 
@@ -63,4 +66,8 @@ body{
 
 .three{
     display: table-cell;
+}
+
+.title{
+    color: white;
 }
