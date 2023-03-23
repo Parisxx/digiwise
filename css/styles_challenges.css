@@ -30,7 +30,7 @@ body{
     overflow: hidden;
     cursor: pointer;
     transition: height 0.3s ease-out;
-    background-color: white;
+    background-color: rgb(240, 243, 251);
     box-shadow: 6px 12px 27px rgba(0, 0, 0, 0.25);
 
 }
@@ -39,7 +39,7 @@ body{
     height: 0;
     overflow: hidden;
     transition: height 0.3s ease-out;
-    background-color: white;
+    background-color: rgb(240, 243, 251);
     font-weight: lighter;
 }
 .card.active .card_content {
