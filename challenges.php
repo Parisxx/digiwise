@@ -13,6 +13,7 @@
 ?>
 <img class="blocks" src="images/block.png">
 <div class="columns">
+<div class="one">
 <h3> HTML challenges </h3>
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
@@ -27,7 +28,9 @@
         <p>test</p>
     </div>
 </div>
+</div>
 
+<div class="two">
 <h3> PHP challenges </h3>
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
@@ -42,7 +45,9 @@
         <p>test</p>
     </div>
 </div>
+</div>
 
+<div class="three">
 <h3> Python challenges </h3>
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
@@ -57,7 +62,7 @@
         <p>test</p>
     </div>
 </div>
-
+</div>
 
 
 </div>

@@ -49,4 +49,18 @@ body{
 .columns{
     margin-top: 5vh;
     color: rgb(36, 35, 35);
+    display: block;
+
+}
+
+.one{
+    display: table-cell;
+}
+
+.two{
+    display: table-cell;
+}
+
+.three{
+    display: table-cell;
 }
