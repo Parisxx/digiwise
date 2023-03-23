@@ -13,3 +13,38 @@ body{
     background: linear-gradient(180deg, rgba(131, 202, 142, 0.65) 0%, #2789CA 100%);
     font-family: 'Nunito Sans', sans-serif;
 }
+
+
+
+.card {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: height 0.3s ease-out;
+
+
+}
+
+.card_content {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+.card.active .card_content {
+    height: auto;
+    padding: 10px;
+}
+
+.columns{
+    margin-top: 5vh;
+    columns: 3;
+    column-gap: 1vh;
+
+}
+
+.title{
+    position: sticky;
+}
