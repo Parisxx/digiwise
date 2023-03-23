@@ -29,7 +29,7 @@
   <label>Onderwerp:</label><br>
   <textarea class="border" required name="subject"></textarea><br>
 
-  <input name="submit" type="submit" value="Verstuur">
+  <input class="border" name="submit" type="submit" value="Verstuur">
   
 </form>
 
