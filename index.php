@@ -27,8 +27,22 @@
 <div class="container_1">
     <div class="card_container">
         <div class="card_1">
+            <div class="img_container">
+                <img src="images/digiwise_1.png" alt="">
+                <div class="info_bar">
+                    <h1>Samen Werken</h1>
+                    <p>Samen werken wij aan een betere toekomst.</p>
+                </div>
+            </div>
         </div>
         <div class="card_2">
+        <div class="img_container">
+                <img src="images/digiwise_5.jpg" alt="">
+                <div class="info_bar">
+                    <h1>Digitaal Bewustzijn</h1>
+                    <p>Wij zijn digital bewust</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
