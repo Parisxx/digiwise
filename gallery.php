@@ -11,6 +11,7 @@
 <?php
  include 'header.php';
 ?>
+<img class="blocks" src="images/block.png">
 
 <div class="div_images">
 <img class="image" src="images/digiwise_3.png">

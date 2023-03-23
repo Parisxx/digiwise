@@ -11,7 +11,7 @@
 <?php
  include 'header.php';
 ?>
-
+<img class="blocks" src="images/block.png">
 
 </body>
 </html>
