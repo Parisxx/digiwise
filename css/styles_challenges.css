@@ -17,7 +17,7 @@ body{
 
 
 .card {
-    border: 1px solid #000000;
+    border: 1px solid rgb(36, 35, 35);
     padding: 10px;
     margin: 10px;
     width: 200px;
@@ -40,11 +40,5 @@ body{
 
 .columns{
     margin-top: 5vh;
-    columns: 3;
-    column-gap: 1vh;
-
-}
-
-.title{
-    position: sticky;
+    color: rgb(36, 35, 35);
 }

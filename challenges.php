@@ -12,22 +12,7 @@
  include 'header.php';
 ?>
 <div class="columns">
-<h3 class="title"> HTML challenges </h3>
-<div class="card" onclick="this.classList.toggle('active')">
-    <h3>Challenge 1</h3>
-    <div class="card_content">
-        <p>test</p>
-    </div>
-</div>
-
-<div class="card" onclick="this.classList.toggle('active')">
-    <h3 >Challenge 2</h3>
-    <div class="card_content">
-        <p>test</p>
-    </div>
-</div>
-
-<h3 class="title"> PHP challenges </h3>
+<h3> HTML challenges </h3>
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
     <div class="card_content">
@@ -42,7 +27,22 @@
     </div>
 </div>
 
-<h3 class="title"> Python challenges </h3>
+<h3> PHP challenges </h3>
+<div class="card" onclick="this.classList.toggle('active')">
+    <h3>Challenge 1</h3>
+    <div class="card_content">
+        <p>test</p>
+    </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('active')">
+    <h3>Challenge 2</h3>
+    <div class="card_content">
+        <p>test</p>
+    </div>
+</div>
+
+<h3> Python challenges </h3>
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
     <div class="card_content">
