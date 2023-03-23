@@ -91,7 +91,7 @@ a{
     width: 100%;
     text-align: center;
     transition: 0.3s;
-    background: blue;
+    background: #54A5C4;
   }
  .nav-item{
     margin: 16px 0;
