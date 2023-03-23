@@ -31,7 +31,7 @@
                 <img src="images/digiwise_1.png" alt="">
                 <div class="info_bar">
                     <h1>Samen Werken</h1>
-                    <p>Samen werken wij aan een betere toekomst.</p>
+                    <p>Samen werken wij aafn een betere toekomst.</p>
                 </div>
             </div>
         </div>
