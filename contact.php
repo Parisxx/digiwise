@@ -28,9 +28,9 @@
   <input class="border" type="text" name="organisation"><br>
 
   <label>Onderwerp:</label><br>
-  <textarea class="border" required name="subject"></textarea><br>
-
-  <input class="border" name="submit" type="submit" value="Verstuur">
+  <input type="text" class="border" required name="subject"></input><br>
+<br>
+  <input class="button" name="submit" type="submit" value="Verstuur">
   
 </form>
 
