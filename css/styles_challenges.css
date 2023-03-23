@@ -24,13 +24,14 @@ body{
 
 
 .card {
-    border: 1px solid rgb(36, 35, 35);
+
     padding: 10px;
     margin: 10px;
     width: 200px;
     overflow: hidden;
     cursor: pointer;
     transition: height 0.3s ease-out;
+    background-color: white;
 
 
 }
@@ -39,6 +40,7 @@ body{
     height: 0;
     overflow: hidden;
     transition: height 0.3s ease-out;
+    background-color: white;
 }
 .card.active .card_content {
     height: auto;
