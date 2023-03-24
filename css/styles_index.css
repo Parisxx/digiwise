@@ -13,8 +13,6 @@ html{
 body{
     font-family: 'Nunito', sans-serif;
     background: linear-gradient(180deg, rgba(131, 202, 142, 0.65) 0%, #2789ca9d 100%);
-    
-
 }
 .blocks{
     margin-left: 1;
@@ -135,6 +133,11 @@ font-weight: 800;
     margin-top: 100px;
 }
 
+.move{
+    display: flex;
+}
+
+
 @media screen and (max-width: 800px){
     .container_1{
         background: #F3F9FE;
@@ -182,11 +185,10 @@ font-weight: 800;
 
     .icon_container{
         background-color: #F3F9FE;
-        height: 500px;
+        height: 1000px;
         width: 100%;
         display: flex;
         flex-direction: column;
-        margin-top: 100px;
     }
 
     .icon_2{
@@ -195,6 +197,11 @@ font-weight: 800;
     
     .icon_4{
         margin-top: 0px
+    }
+
+    .move{
+        margin-top: 200px;
+        display: block;
     }
     
 }
