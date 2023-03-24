@@ -8,12 +8,17 @@
 html{
     height: 100vh;
     width: 100%;
+    
 }
 
 body{
     font-family: 'Nunito', sans-serif;
     background: linear-gradient(180deg, rgba(131, 202, 142, 0.65) 0%, #2789ca9d 100%);
+    background-repeat: no-repeat;
 }
+
+
+
 .blocks{
     margin-left: 1;
     margin-top: -6rem;
