@@ -18,6 +18,7 @@
 <?php
  include 'header.php';
 ?>
+<img class="blocks" src="images/block.png">
 
 <form class="contact" action="contact.php" method="post" enctype="multipart/form-data">
   <label>Volledige naam:</label><br>
@@ -27,9 +28,9 @@
   <input class="border" type="text" name="organisation"><br>
 
   <label>Onderwerp:</label><br>
-  <textarea class="border" required name="subject"></textarea><br>
-
-  <input name="submit" type="submit" value="Verstuur">
+  <input type="text" class="border" required name="subject"></input><br>
+<br>
+  <input class="button" name="submit" type="submit" value="Verstuur">
   
 </form>
 

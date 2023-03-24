@@ -16,9 +16,11 @@ body{
 
 .blocks{
     margin-left: 1;
-    margin-top: -5rem;
+    margin-top: -6rem;
     opacity: 40%;
     position: absolute;
+    z-index: -1;
+
 }
 .picture{
     height: 70vh;
@@ -26,6 +28,7 @@ body{
     margin-left: 4vh;
     margin-top: 10vh;
     float: left;
+    z-index: 0;
 }
 
 .text_top{

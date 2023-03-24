@@ -13,13 +13,22 @@ body{
     background: linear-gradient(180deg, rgba(131, 202, 142, 0.65) 0%, #2789CA 100%);
     font-family: 'Nunito Sans', sans-serif;
 }
+.blocks{
+    margin-left: 1;
+    margin-top: -6rem;
+    opacity: 40%;
+    position: absolute;
+    z-index: -1;
 
+}
 .news{
     color: black;
     width: 30vh;
-    background-color: rgb(220, 231, 255);
+    background-color: rgb(240, 243, 251);
     padding: 5px;
     margin-left: 5vh;
     margin-top: 10vh;
     float: left;
+    font-weight: lighter;
+    box-shadow: 6px 12px 27px rgba(0, 0, 0, 0.25);
 }

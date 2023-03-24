@@ -22,7 +22,7 @@
 <?php
  include 'header.php';
 ?>
-
+<img class="blocks" src="images/block.png">
 
 <?php
 while ($data = $stmt->fetch())
