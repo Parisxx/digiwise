@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 </head>
 <body>
 <html> 
@@ -48,10 +49,30 @@
         </div>
     </div>
     <div class="icon_container">
-        <div class="icon_1 icon_box"></div>
-        <div class="icon_2 icon_box"></div>
-        <div class="icon_3 icon_box"></div>
-        <div class="icon_4 icon_box"></div>
+        <div class="icon_1 icon_box">
+            <div class="icon_box_content">
+        <i class="fa-regular fa-bullseye-arrow"></i>
+        <h3>Challenges</h3>
+        </div>
+        </div>
+        <div class="icon_2 icon_box" style="background: linear-gradient(145.68deg, rgba(39, 137, 202, 0.19) 10.17%, rgba(131, 202, 142, 0.65) 79.72%);">
+        <div class="icon_box_content">
+        <i class="fa-solid fa-desktop"></i>
+        <h3>Technologie</h3>
+        </div>
+        </div>
+        <div class="icon_3 icon_box">
+        <div class="icon_box_content">
+        <i class="fa-solid fa-atom-simple"></i>
+        <h3>Verbonden</h3>
+        </div>
+        </div>
+        <div class="icon_4 icon_box" style="background: linear-gradient(145.68deg, rgba(39, 137, 202, 0.19) 10.17%, rgba(131, 202, 142, 0.65) 79.72%);">
+        <div class="icon_box_content">
+        <i class="fa-solid fa-lightbulb-on"></i>
+        <h3>Innovatie</h3>
+        </div>
+        </div>
     </div>
 </div>
 
