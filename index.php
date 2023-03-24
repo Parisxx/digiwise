@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digiwise</title>
     <link rel="stylesheet" href="css/styles_index.css">
-    <?php include('loadfont.php')?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 <html> 
@@ -15,12 +17,14 @@
  include 'header.php';
 ?>
 <img class="blocks" src="images/block.png">
+<div class="head_intro">
 <h1 class="title_1">Wij zijn klaar voor de <span>toekomst!</span></h1>
 <p class="intro">
     Digitalisering ICT heeft een steeds grotere rol in de samenleving.
     Daar waar de ICTer <br> vroeger systeembeheer tot focus gebied had, 
     zie je dat de behoefte aan het <br> veranderen is.
 </p>
+</div>
 
 <div class="container_1">
     <div class="card_container">
@@ -42,6 +46,12 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="icon_container">
+        <div class="icon_1 icon_box"></div>
+        <div class="icon_2 icon_box"></div>
+        <div class="icon_3 icon_box"></div>
+        <div class="icon_4 icon_box"></div>
     </div>
 </div>
 
