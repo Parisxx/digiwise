@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digiwise</title>
     <link rel="stylesheet" href="css/styles_index.css">
+    <?php include('loadfont.php')?>
 </head>
 <body>
 <html> 
