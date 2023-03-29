@@ -16,9 +16,9 @@ body{
 .blocks{
     margin-left: 1;
     margin-top: -6rem;
-    opacity: 40%;
+    opacity: 60%;
     position: absolute;
-    z-index: -2;
+    z-index: -1;
 
 }
 .contact{
