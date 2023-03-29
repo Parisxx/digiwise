@@ -20,6 +20,7 @@
  include 'header.php';
 ?>
 <img class="blocks" src="images/block.png">
+<img class="foto" src="images/digiwise_12.png">
 
 <form class="contact" action="contact.php" method="post" enctype="multipart/form-data">
   <label>Volledige naam:</label><br>
