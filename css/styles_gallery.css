@@ -24,7 +24,7 @@ body{
 
 
 .image{
-    height: 40vh;
+    height: 40%;
     width: 20%;
     padding: 5px;
     max-width: 400px;
@@ -34,6 +34,4 @@ body{
     margin-top: 10vh;
     margin-left: 11%;
     float: right;
-    height: auto;   
-    width: auto;
 }
