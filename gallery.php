@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digiwise | Gallerij</title>
     <link rel="stylesheet" href="css/styles_gallery.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
 <?php
