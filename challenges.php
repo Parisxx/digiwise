@@ -19,14 +19,14 @@
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
     <div class="card_content">
-        <p>Een HTML website over jezelf.</p>
+        <p>Maak met HTML een website over jezelf.</p>
     </div>
 </div>
 
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 2</h3>
     <div class="card_content">
-        <p>test</p>
+        <p>Maak met HTML een website over je portofolie.</p>
     </div>
 </div>
 </div>
@@ -36,14 +36,14 @@
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
     <div class="card_content">
-        <p>test</p>
+        <p>Maak met PHP en HTML een website over een kantine</p>
     </div>
 </div>
 
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 2</h3>
     <div class="card_content">
-        <p>test</p>
+        <p>Maak met PHP een website over een pokedex.</p>
     </div>
 </div>
 </div>
@@ -53,14 +53,14 @@
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 1</h3>
     <div class="card_content">
-        <p>test</p>
+        <p>Maak met Python een spel over ... .</p>
     </div>
 </div>
 
 <div class="card" onclick="this.classList.toggle('active')">
     <h3>Challenge 2</h3>
     <div class="card_content">
-        <p>test</p>
+        <p>Maak met Python een spel over ... .</p>
     </div>
 </div>
 </div>
