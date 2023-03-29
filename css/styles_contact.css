@@ -15,7 +15,7 @@ body{
 }
 .blocks{
     margin-left: 1;
-    /* margin-top: -6rem; */
+    margin-top: -6rem;
     opacity: 60%;
     position: absolute;
     z-index: -1;
@@ -38,7 +38,7 @@ padding: 0.4%;
 .foto{
 width: 100%;
 height: auto;
-margin-top: -6rem;       
+/* margin-top: -6rem;        */
 opacity: 40%;
 z-index: -1;
 position: absolute;
