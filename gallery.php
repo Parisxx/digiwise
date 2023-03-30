@@ -24,6 +24,8 @@
 <img class="image" src="images/digiwise_10.png">
 <img class="image" src="images/digiwise_11.png">
 </div>
-
+<?php
+ include 'footer.php';
+?>
 </body>
 </html>

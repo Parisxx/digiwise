@@ -30,6 +30,8 @@
     heeft DigiWise als speerpunt Limburg economisch sterk en autonoom te laten zijn uiterlijk in 2024. 
 </p>
 
-
+<?php
+ include 'footer.php';
+?>
 </body>
 </html>
