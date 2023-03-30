@@ -24,10 +24,10 @@ body{
 .contact{
     color: white;
     text-align: center;
+    padding-top: 30px;
 }
 .border{
    border:none;
-    margin-top: 30px;
 }
 .button{
 border: none;
