@@ -30,6 +30,13 @@ body{
    border:none;
    margin-top: 5px;
 }
+
+.subject{
+    border:none;
+    margin-top: 5px;
+    height: 5vh;
+ }
+
 .button{
 border: none;
 color: black;
