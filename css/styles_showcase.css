@@ -5,7 +5,7 @@
 }
 
 html{
-    height: 100vh;
+
     width: 100%;
 }
 
@@ -22,14 +22,59 @@ body{
 
 }
 
-.showcase{
 
-}
-
-.picture{
-    float: right;
-}
-
-.text{
+.picture_1{
     float: left;
+    z-index: 0;
+    height: 40vh;
+    width: 30%;
+    margin-left: 4vh;
+    margin-top: 10vh;
+}
+
+.text_1{
+    float: right;
+    color: white;
+    width: 100vh;
+    margin-right: 40vh;
+    margin-top: 10vh;
+    border-left: 2px solid white;
+    padding: 5px;
+}
+
+.text_2{
+    float: right;
+    color: white;
+    width: 100vh;
+    margin-right: 40vh;
+    margin-top: 10vh;
+}
+
+
+.picture_2{
+    float: right;
+    z-index: 0;
+    height: 40vh;
+    width: 30%;
+    margin-right: 4vh;
+    margin-top: 15vh;
+
+}
+
+.text_3{
+    float: left;
+    color: white;
+    width: 100vh;
+    margin-left: 40vh;
+    margin-top: 10vh;
+    border-left: 2px solid white;
+    padding: 5px;
+}
+
+.text_4{
+    float: left;
+    color: white;
+    width: 100vh;
+    margin-left: 40vh;
+    margin-top: 10vh;
 }
