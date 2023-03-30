@@ -27,7 +27,7 @@ body{
 }
 .border{
    border:none;
-
+    margin-top: 30px;
 }
 .button{
 border: none;
