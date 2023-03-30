@@ -27,6 +27,7 @@ body{
 }
 .border{
    border:none;
+   padding-top: 10px;
 
 }
 .button{
