@@ -19,6 +19,8 @@
 <?php
  include 'header.php';
 ?>
+
+
 <img class="blocks" src="images/block.png">
 <img class="foto" src="images/digiwise_12.png" class="responsive">
 
