@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digiwise | Gallerij</title>
     <link rel="stylesheet" href="css/styles_gallery.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
 <?php
@@ -16,12 +17,12 @@
 <div class="div_images">
 <img class="image" src="images/digiwise_3.png">
 <img class="image" src="images/digiwise_4.png">
-<img class="image" src="images/digiwise_2.png">
-<img class="image" src="images/digiwise_2.png">
-<img class="image" src="images/digiwise_2.png">
-<img class="image" src="images/digiwise_2.png">
-<img class="image" src="images/digiwise_2.png">
-<img class="image" src="images/digiwise_2.png">
+<img class="image" src="images/digiwise_6.png">
+<img class="image" src="images/digiwise_7.png">
+<img class="image" src="images/digiwise_8.png">
+<img class="image" src="images/digiwise_9.png">
+<img class="image" src="images/digiwise_10.png">
+<img class="image" src="images/digiwise_11.png">
 </div>
 
 </body>

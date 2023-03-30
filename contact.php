@@ -13,12 +13,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digiwise | Contact</title>
     <link rel="stylesheet" href="css/styles_contact.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
 <body>
 <?php
  include 'header.php';
 ?>
 <img class="blocks" src="images/block.png">
+<img class="foto" src="images/digiwise_12.png" class="responsive">
 
 <form class="contact" action="contact.php" method="post" enctype="multipart/form-data">
   <label>Volledige naam:</label><br>

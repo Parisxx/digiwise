@@ -16,7 +16,7 @@ body{
 .blocks{
     margin-left: 1;
     margin-top: -6rem;
-    opacity: 40%;
+    opacity: 60%;
     position: absolute;
     z-index: -1;
 
@@ -27,6 +27,7 @@ body{
 }
 .border{
    border:none;
+   margin-top: 30px;
 
 }
 .button{
@@ -34,4 +35,12 @@ border: none;
 color: black;
 background-color: white;
 padding: 0.4%;
+}
+.foto{
+width: 100%;
+height: auto;
+/* margin-top: -6rem;        */
+opacity: 40%;
+z-index: -1;
+position: absolute;
 }
