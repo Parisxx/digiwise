@@ -47,6 +47,7 @@ if(isset($_POST['submit']))
     
         $sql = "INSERT INTO contact (name, organisation, subject) VALUES ('$name', '$organisation', '$subject')";
         $result = $pdo->query($sql);
+        echo "<p class='accepted'> Verstuurd! </p>";
     }
 
 ?>
