@@ -52,7 +52,7 @@ font-weight: 800;
 
 .container_1{
     background: #F3F9FE;
-    height: 1000px;
+    height: 100vh;
     width: 100%;
     margin-top: 300px;
 }
@@ -142,6 +142,39 @@ font-weight: 800;
     display: flex;
 }
 
+.footer_container{
+    height: 25vh;
+    width: 100%;
+}
+
+.footer{
+    background-color: #073959;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    width: 100%;
+}
+
+.footer_links{
+    padding: 3em 3em;
+}
+
+
+.footer_links i{
+    margin: 5px;
+}
+
+.footer_icons_container{
+    width: 100%;
+}
+
+.footer_icons{
+    background-color: blue;
+    float: right;
+
+}
 
 @media screen and (max-width: 800px){
     .container_1{
@@ -209,4 +242,7 @@ font-weight: 800;
         display: block;
     }
     
+    .footer_container{
+       margin-top: 500px;
+    }
 }
