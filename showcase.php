@@ -14,9 +14,9 @@
 ?>
 <img class="blocks" src="images/block.png">
 
-<div>
-<img class="showcase" src="images/digiwise_5">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+<div class="showcase">
+<img class="picture" src="images/digiwise_5.jpg">
+<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Cras a dictum ipsum. Pellentesque augue sapien, sodales sit amet 
     libero tempus, blandit venenatis ipsum. Maecenas fermentum urna a 
     mattis molestie. Sed vulputate laoreet massa a laoreet. Donec vel aliquam 

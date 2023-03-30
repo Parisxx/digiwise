@@ -21,3 +21,15 @@ body{
     z-index: -1;
 
 }
+
+.showcase{
+
+}
+
+.picture{
+    float: right;
+}
+
+.text{
+    float: left;
+}
