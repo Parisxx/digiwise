@@ -142,7 +142,7 @@ font-weight: 800;
     display: flex;
 }
 
-.footer_container{
+/* .footer_container{
     height: 25vh;
     width: 100%;
 }
@@ -182,7 +182,7 @@ font-weight: 800;
         height: 100vh;
         width: 100%;
         margin-top: 100px;
-    }
+    } */
     
     .card_container{
         display: flex;
@@ -245,4 +245,3 @@ font-weight: 800;
     .footer_container{
        margin-top: 500px;
     }
-}
