@@ -35,14 +35,16 @@ body{
     border:none;
     margin-top: 5px;
     height: 5vh;
- }
+    resize: none;
+}
 
 .button{
-border: none;
-color: black;
-background-color: white;
-padding: 0.4%;
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 0.4%;
 }
+
 .foto{
 width: 100%;
 height: auto;

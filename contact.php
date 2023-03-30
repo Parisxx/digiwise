@@ -32,7 +32,7 @@
   <input class="border" type="text" name="organisation"><br>
 
   <label>Onderwerp:</label><br>
-  <input type="text" class="subject" rows="5" required name="subject"></input><br>
+  <textarea type="text" class="subject" rows="5" required name="subject"></textarea><br>
 <br>
   <input class="button" name="submit" type="submit" value="Verstuur">
   
