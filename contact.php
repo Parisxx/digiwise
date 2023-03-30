@@ -50,6 +50,8 @@ if(isset($_POST['submit']))
     }
 
 ?>
-
+<?php
+ include 'footer.php';
+?>
 </body>
 </html>

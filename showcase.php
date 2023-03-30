@@ -43,6 +43,8 @@
     mattis molestie. Sed vulputate laoreet massa a laoreet. Donec vel aliquam 
     nibh, sit amet sodales tellus.</p>
 </div>
-
+<?php
+ include 'footer.php';
+?>
 </body>
 </html>

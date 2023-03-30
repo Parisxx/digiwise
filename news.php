@@ -35,7 +35,9 @@ echo "<p>". $data['text'] ."</p>";
 echo "</div>";
 }
 ?>
-
+<?php
+ include 'footer.php';
+?>
 
 </body>
 </html>
