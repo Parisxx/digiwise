@@ -77,9 +77,7 @@
             </div>
         </div>
     </div>
-</div>
-</div>
-<div class="footer_container">
+    <div class="footer_container">
     <div class="footer">
         <ul class="footer_links">
             <h2>Digiwise</h2>
@@ -107,6 +105,9 @@
         </ul>
         
     </div>
+</div>
+</div>
+
  </body>
  </html>
 </body>
