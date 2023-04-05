@@ -77,39 +77,7 @@
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-    <div class="footer_container">
-    <div class="footer">
-        <ul class="footer_links p_1">
-            <h2>Digiwise</h2>
-        <hr>
-            <li>Contact opnemen</li>
-            <li>Documenten</li>
-            <li>Kennis Maken</li>
-            <li>Partners</li>
-        </ul>
-        <ul class="footer_links p_2">
-            <h2>Informatie</h2>
-        <hr>
-            <li>Contact opnemen</li>
-            <li>Documenten</li>
-            <li>Kennis Maken</li>
-            <li>Partners</li>
-        </ul>
-        <ul class="footer_links p_3">
-            <h2>Contact</h2>
-        <hr>
-            <li>Contact opnemen</li>
-            <li>Documenten</li>
-            <li>Kennis Maken</li>
-            <li>Partners</li>
-        </ul>
-        
-    </div>
-=======
-    
->>>>>>> 9909294c299239191db42db1ca8ee22fa2fa8919
-</div>
+   
 </div>
 <?php
 include 'footer.php'

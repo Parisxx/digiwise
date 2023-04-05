@@ -1,6 +1,8 @@
 .footer_container{
-    height: 25vh;
+    height: 30vh;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .footer{
