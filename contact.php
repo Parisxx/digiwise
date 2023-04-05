@@ -19,6 +19,8 @@
 <?php
  include 'header.php';
 ?>
+
+
 <img class="blocks" src="images/block.png">
 <img class="foto" src="images/digiwise_12.png" class="responsive">
 
@@ -30,7 +32,7 @@
   <input class="border" type="text" name="organisation"><br>
 
   <label>Onderwerp:</label><br>
-  <input type="text" class="border" required name="subject"></input><br>
+  <textarea type="text" class="subject" rows="5" required name="subject"></textarea><br>
 <br>
   <input class="button" name="submit" type="submit" value="Verstuur">
   
@@ -45,9 +47,12 @@ if(isset($_POST['submit']))
     
         $sql = "INSERT INTO contact (name, organisation, subject) VALUES ('$name', '$organisation', '$subject')";
         $result = $pdo->query($sql);
+        echo "<p class='accepted'> Verstuurd! </p>";
     }
 
 ?>
-
+<?php
+ include 'footer.php';
+?>
 </body>
 </html>

@@ -30,12 +30,21 @@ body{
    border:none;
    margin-top: 5px;
 }
-.button{
-border: none;
-color: black;
-background-color: white;
-padding: 0.4%;
+
+.subject{
+    border:none;
+    margin-top: 5px;
+    height: 8vh;
+    resize: none;
 }
+
+.button{
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 0.4%;
+}
+
 .foto{
 width: 100%;
 height: auto;
@@ -43,4 +52,9 @@ height: auto;
 opacity: 40%;
 z-index: -1;
 position: absolute;
+}
+
+.accepted{
+    color: white;
+    text-align: center;
 }

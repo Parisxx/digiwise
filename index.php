@@ -77,6 +77,7 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
     <div class="footer_container">
     <div class="footer">
         <ul class="footer_links p_1">
@@ -105,9 +106,14 @@
         </ul>
         
     </div>
+=======
+    
+>>>>>>> 9909294c299239191db42db1ca8ee22fa2fa8919
 </div>
 </div>
-
+<?php
+include 'footer.php'
+?>
  </body>
  </html>
 </body>
