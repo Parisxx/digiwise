@@ -36,8 +36,8 @@ body{
 }
 
 .card_content {
-    height: 0;
-    overflow: hidden;
+    /* height: 0;
+    overflow: hidden; */
     transition: height 0.3s ease-out;
     background-color: rgb(240, 243, 251);
     font-weight: lighter;
