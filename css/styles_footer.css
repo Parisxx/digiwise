@@ -13,8 +13,7 @@
     align-items: center;
     color: #FFF;
     width: 100%;
-    position: relative;
-    bottom: 0;
+    transform: translateY(10rem);
 }
 
 
