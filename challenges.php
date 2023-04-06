@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/styles_challenges.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
+<html>
 <body>
 <?php
  include 'header.php';
