@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
 </head>
-<body>
 <html> 
 <body>
  <?php
@@ -82,7 +81,5 @@
 <?php
 include 'footer.php'
 ?>
- </body>
- </html>
 </body>
 </html>
