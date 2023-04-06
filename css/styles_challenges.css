@@ -4,10 +4,10 @@
     padding: 0;
 }
 
-/* html{
+html{
     height: 100vh;
     width: 100%;
-} */
+}
 
 body{
     background: linear-gradient(180deg, rgba(131, 202, 142, 0.65) 0%, #2789CA 100%);
@@ -36,8 +36,8 @@ body{
 }
 
 .card_content {
-    /* height: 0;
-    overflow: hidden; */
+    height: 0;
+    overflow: hidden;
     transition: height 0.3s ease-out;
     background-color: rgb(240, 243, 251);
     font-weight: lighter;
