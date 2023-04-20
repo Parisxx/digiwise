@@ -26,20 +26,17 @@
 
 
 
-
 <?php
-
   while ($data = $stmt->fetch())
   {
-  echo "<h3 class='title'>" . $data['title'] . "challenges </h3>";
-  echo "<div class='card' onclick='this.classList.toggle('active')'>";
-     echo "<h3>Challenge " . $data['number'] . "</h3>";
-     echo "<div class='card_content'>";
-         echo "<p>" . $data['content'] . "</p>";
-     echo "</div>";
-  echo "</div>";
+    echo "<h3 class='title'>" . $data['title'] . " challenges </h3>";
+    echo "<div class='card' onclick='this.classList.toggle(\"active\")'>";
+    echo "<h3>Challenge " . $data['number'] . "</h3>";
+    echo "<div class='card_content'>";
+    echo "<p>" . $data['content'] . "</p>";
+    echo "</div>";
+    echo "</div>";
   }
-
 ?>
 
 
