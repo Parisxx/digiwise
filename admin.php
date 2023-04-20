@@ -11,9 +11,9 @@
 <body>
 
 <!-- username in hoek -->
-<!-- nieuws verwijderen en toevoegen -->
+<!-- nieuws verwijderen en toevoegen --> uit t database
 <!-- gallerij verwijderen en toevoegen -->
-<!-- contact formulier berichten kunnen zien en verwijderen -->
+<!-- contact formulier berichten kunnen zien en verwijderen --> uit t database
 <!-- challenges verwijderen en toevoegen -->
 </body>
 </html>
