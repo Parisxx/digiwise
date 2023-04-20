@@ -24,64 +24,38 @@
 ?>
 <img class="blocks" src="images/block.png">
 
-
-
 <?php
-  while ($data = $stmt->fetch())
-  {
-    echo "<h3 class='title'>" . $data['title'] . " challenges </h3>";
-    echo "<div class='card' onclick='this.classList.toggle(\"active\")'>";
-    echo "<h3>Challenge " . $data['number'] . "</h3>";
-    echo "<div class='card_content'>";
-    echo "<p>" . $data['content'] . "</p>";
-    echo "</div>";
-    echo "</div>";
+
+// Select challenges grouped by category
+$sql = "SELECT category, number, content FROM challenges GROUP BY category, number ORDER BY category, number";
+$stmt = $pdo->query($sql);
+
+$current_category = null; // Add a variable to keep track of the current category
+while ($data = $stmt->fetch())
+{
+  if ($data['category'] !== $current_category) { // Check if the category has changed
+    if ($current_category !== null) { // Print the previous group of challenges (if any)
+      echo "</div>"; // Close the previous group's container
+    }
+    echo "<h3 class='title'>" . $data['category'] . " challenges </h3>"; // Print the new category
+    echo "<div class='challenges_container'>"; // Open a container for the challenges
+    $current_category = $data['category']; // Update the current category
   }
+  echo "<div class='card' onclick='this.classList.toggle(\"active\")'>";
+  echo "<h3>Challenge " . $data['number'] . "</h3>";
+  echo "<div class='card_content'>";
+  echo "<p>" . $data['content'] . "</p>";
+  echo "</div>";
+  echo "</div>";
+}
+
+if ($current_category !== null) { // Print the last group of challenges (if any)
+  echo "</div>"; // Close the last group's container
+}
 ?>
 
-
-
-<div class="columns">
-
-<div class="one">
-
-<h3 class="title"> HTML challenges </h3>
-<div class="card" onclick="this.classList.toggle('active')">
-    <h3>Challenge 1</h3>
-    <div class="card_content">
-        <p>Maak met HTML een website over jezelf.</p>
-    </div>
-</div>
-
-</div>
-
-<div class="two">
-<h3 class="title"> PHP challenges </h3>
-<div class="card" onclick="this.classList.toggle('active')">
-    <h3>Challenge 1</h3>
-    <div class="card_content">
-        <p>Maak met PHP en HTML een website over een kantine</p>
-    </div>
-</div>
-
-</div>
-
-<div class="three">
-<h3 class="title"> Python challenges </h3>
-<div class="card" onclick="this.classList.toggle('active')">
-    <h3>Challenge 1</h3>
-    <div class="card_content">
-        <p>Maak met Python een spel over ... .</p>
-    </div>
-</div>
-
-</div>
-
-
-</div>
-
-
 <?php
+
  include 'footer.php';
 ?>
 
