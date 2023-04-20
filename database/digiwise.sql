@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 22 mrt 2023 om 09:55
+-- Gegenereerd op: 20 apr 2023 om 11:09
 -- Serverversie: 10.4.27-MariaDB
 -- PHP-versie: 8.1.12
 
@@ -24,6 +24,28 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Tabelstructuur voor tabel `challenges`
+--
+
+CREATE TABLE `challenges` (
+  `category` varchar(255) NOT NULL,
+  `number` int(11) NOT NULL,
+  `content` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `challenges`
+--
+
+INSERT INTO `challenges` (`category`, `number`, `content`) VALUES
+('HTML', 1, 'Dit is een voorbeeld'),
+('PHP', 1, 'Dit is een voorbeeld'),
+('HTML', 2, 'Dit is een voorbeeld'),
+('Python', 1, 'Dit is een voorbeeld');
+
+-- --------------------------------------------------------
+
+--
 -- Tabelstructuur voor tabel `contact`
 --
 
@@ -32,6 +54,30 @@ CREATE TABLE `contact` (
   `organisation` varchar(255) NOT NULL,
   `subject` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `gallery`
+--
+
+CREATE TABLE `gallery` (
+  `photo` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `gallery`
+--
+
+INSERT INTO `gallery` (`photo`) VALUES
+('digiwise_11.png'),
+('digiwise_10.png'),
+('digiwise_9.png'),
+('digiwise_8.png'),
+('digiwise_7.png'),
+('digiwise_6.png'),
+('digiwise_4.png'),
+('digiwise_3.png');
 
 -- --------------------------------------------------------
 
