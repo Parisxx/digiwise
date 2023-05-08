@@ -39,7 +39,8 @@ while ($data = $stmt->fetch())
     }
     echo "<h3 class='title'>" . $data['category'] . " challenges </h3>"; // Print the new category
     echo "<div class='challenges_container'>"; // Open a container for the challenges
-    $current_category = $data['category']; // Update the current category
+    
+    $current_category = $data['category']; 
   }
   echo "<div class='card' onclick='this.classList.toggle(\"active\")'>";
   echo "<h3>Challenge " . $data['number'] . "</h3>";

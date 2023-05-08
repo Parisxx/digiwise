@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-   g
+   
 </div>
 <?php
 include 'footer.php'
