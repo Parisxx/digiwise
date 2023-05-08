@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  require_once("database/db_connection.php");
+  $pdo = connect();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +16,19 @@
 </head>
 <body>
 
-<form action="admin.php" method="post" enctype="multipart/form-data">
-  <label>Gebruikersnaam:</label><br>
-  <input required type="text" name="username"><br>
-
-  <label>Wachtwoord:</label><br>
-  <input type="text" name="wachtwoord"><br>
+<form action="" method="post" enctype="multipart/form-data">
+<label>Gebruikersnaam:</label><br>
+<input required type="text" name="username"><br>
+<label>Wachtwoord:</label><br>
+<input required type="password" name="password"><br>
 <br>
-  <input name="submit" type="submit" value="Verstuur">
-  
+<input name="submit" type="submit" value="Verstuur">
 </form>
+
+
+<?php
+
+?>
+
 </body>
 </html>

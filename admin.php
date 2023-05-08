@@ -11,9 +11,13 @@
 <body>
 
 <!-- username in hoek -->
-<!-- nieuws verwijderen en toevoegen --> uit t database
+<!-- nieuws verwijderen en toevoegen --> 
 <!-- gallerij verwijderen en toevoegen -->
-<!-- contact formulier berichten kunnen zien en verwijderen --> uit t database
+<!-- contact formulier berichten kunnen zien en verwijderen --> 
 <!-- challenges verwijderen en toevoegen -->
+<!-- add more admins -->
+
+
+
 </body>
 </html>
