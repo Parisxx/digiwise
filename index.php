@@ -19,7 +19,7 @@
 ?>
 <img class="blocks" src="images/block.png">
 <div class="head_intro">
-<h1 class="title_1">Wij zijn klaar voor de <span>toekomst! </span></h1>
+<h1 class="title_1">Wij zijn klaar voor de <span>toekomst!</span></h1>
 <p class="intro">
     Digitalisering ICT heeft een steeds grotere rol in de samenleving.
     Daar waar de ICTer <br> vroeger systeembeheer tot focus gebied had, 
@@ -76,7 +76,7 @@
             </div>
         </div>
     </div>
-   
+   g
 </div>
 <?php
 include 'footer.php'
